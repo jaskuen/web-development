@@ -34,6 +34,7 @@ footer
 {
     width: 1920px;
     height: 108px;
+    margin-top: 288px;
 
     background: #000000;
 }
@@ -416,14 +417,14 @@ footer
 .what_will_you_gain
 {
     width: 1135px;
-    margin: 98px 392px 0px 393px;
+    margin: 98px 392px 0px 398px;
 }
 
 .wwyg_head
 {
     width: 553px;
     height: 59px;
-    margin: 0 250px 60px 311px;
+    margin: 0 250px 60px 307px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -439,12 +440,13 @@ footer
 
 .wwyg_blocks_wrap
 {
-    width: 1135px; 
+    width: 1167px; 
 }
 
 .wwyg_blocks_wrap_3
 {
     display: flex;
+    margin: 0 0 30px;
 }
 
 .wwyg_block
