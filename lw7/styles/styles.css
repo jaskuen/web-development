@@ -146,6 +146,8 @@ footer
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
 
 
     background: #05090C;
@@ -159,7 +161,6 @@ footer
 }
 
 
-
 .who_for
 {
     background-color: #000000;
@@ -169,23 +170,22 @@ footer
 
 .tiny_image_time
 {
-    padding-left: 121px;
+    margin-left: 43%;
 }
 
 .tiny_image_note
 {
-    padding-left: 137.95px;
+    margin-left: 43%;
 }
 
 .tiny_image_focus
 {
-    padding-left: 137.05px;
+    margin-left: 43%;
 }
 
 .tiny_text_time
 {
     margin-top: 20px;
-    
 
     font-family: 'Roboto Condensed';
     font-style: normal;
@@ -235,7 +235,7 @@ footer
 
 .methods_wrap
 {
-    padding: 110px 367px 0 384px;
+    padding: 110px;
 }
 
 .less_time
@@ -246,29 +246,33 @@ footer
 
 .nothingtodo_method
 {
-    margin: 0 75px 0 95px;
+    margin: 0 auto;
+    padding-top: 72px;
 }
 
 .focuson
 {
     margin: 0 auto;
-    margin-right: 0px;
+    padding-top: 72px;
 }
 
 .not_enough_time
 {
-    padding-top: 72px;
+    margin: 0 auto;
 }
 
 .finances_img
 {
     width: 510px;
     height: 476px;
+    margin-left: 25%;
 }
 
 .net_text_wrap
 {
-    margin: 177.03px 0 160px 79px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
 }
 
 .not_enough_time_head
@@ -295,6 +299,7 @@ footer
     font-weight: 400;
     font-size: 18px;
     line-height: 135%;
+    text-align: center;
     /* or 24px */
 
 
@@ -310,7 +315,9 @@ footer
 
 .da_text_wrap
 {
-    margin: 283.98px 57px 275.93px 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;    
 }
 
 .deadline_again_head
@@ -334,7 +341,7 @@ footer
     font-family: 'Roboto Condensed';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 200%;
     line-height: 135%;
     /* or 24px */
 
@@ -345,12 +352,13 @@ footer
 .mindblowing_img
 {   
     width: 504px;
-    height: 691px;    
+    height: 691px;
+    margin-left: 29%;    
 }
 
 .what_will_you_gain
 {
-    margin: 98px 394px 0px 400px;
+    margin: 0 auto 20%;
 }
 
 .wwyg_head
@@ -371,12 +379,20 @@ footer
 .wwyg_blocks_wrap
 { 
     width: 100%;
+    display: flex;
+}
+
+.wwyg_blocks_wrap_3
+{
+    width: 50%;
 }
 
 
 .wwyg_block
 {
-    margin: 0 auto;
+    margin: 4%;
+    height: 38%;
+    
 
     background: #000000;
     border-radius: 7.35723px;
@@ -384,19 +400,20 @@ footer
 
 .wwyg_block_img
 {
-    padding-left: 39.35px;
-    padding-top: 32.36px;
+    padding-left: 8%;
+    padding-top: 5%;
 }
 
 .wwyg_block_text
 {
-    padding-left: 39.25px;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 20.87px;
 
     font-family: 'Roboto Condensed';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 21px;
 
     color: #FFFFFF;
@@ -575,6 +592,7 @@ footer
         padding-left: 178px;
         padding-top: 43px;
         display: flex;
+        flex-direction: unset;
     }
 
     .itc_wrap
@@ -635,21 +653,18 @@ footer
     {
         width: 60px;
         height: 60px;
-        padding-left: 121px;
     }
 
     .tiny_image_note
     {
         width: 60px;
         height: 60px;
-        padding-left: 137.95px;
     }
 
     .tiny_image_focus
     {
         width: 60px;
         height: 60px;
-        padding-left: 137.05px;
     }
 
     .tiny_text_time
@@ -725,7 +740,7 @@ footer
     .nothingtodo_method
     {
         height: 132px;
-        margin: 0 75px 0 95px;
+        padding-top: 0;
     }
 
     .focuson
@@ -733,13 +748,11 @@ footer
         height: 132px;
         margin: 0 auto;
         margin-right: 0px;
+        padding-top: 0;
     }
 
     .not_enough_time
     {
-        width: 1136px;
-        margin: 0 391px 0 388px;
-        padding-top: 72px;
         display: flex;
     }
 
@@ -791,9 +804,9 @@ footer
 
     .deadline_again
     {
-        width: 1135px;
         margin: 0 391px 0 385px;
         display: flex;
+        flex-direction: unset;
     }
 
     .da_text_wrap
@@ -866,7 +879,8 @@ footer
 
     .wwyg_blocks_wrap
     {
-        width: 1167px; 
+        width: 1167px;
+        display: block; 
     }
 
     .wwyg_blocks_wrap_3
@@ -879,7 +893,6 @@ footer
     {
         width: 358px;
         height: 190px;
-        margin: 0 auto;
 
         background: #000000;
         border-radius: 7.35723px;
@@ -899,6 +912,7 @@ footer
         height: 51.5px;
         padding-left: 39.25px;
         margin-top: 20.87px;
+        margin-left: 0;
 
         font-family: 'Roboto Condensed';
         font-style: normal;
@@ -913,7 +927,6 @@ footer
     {
         width: 167px;
         height: 48px;
-        padding-left: 876px;
         padding-top: 35px;
 
         font-family: 'Montserrat';
