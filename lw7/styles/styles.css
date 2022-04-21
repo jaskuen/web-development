@@ -1,3 +1,4 @@
+
 body
 {
     margin-top: 0px;
@@ -19,7 +20,7 @@ h1
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 100px;
+    font-size: 50px;
     line-height: 122.35%;
     /* or 122px */
 
@@ -31,6 +32,7 @@ footer
 {
     display: flex;
     background: #000000;
+    margin-top: 200px;
 }
 
 .celling
@@ -48,6 +50,18 @@ footer
     margin-right: 0px;
 }
 
+.mw100
+{
+    max-width: 100%;
+}
+
+.paragraph_question_wrap
+{
+    margin: auto;
+    margin-left: 3%;
+    margin-right: 0;
+}
+
 .paragraph_question
 {
     padding: 0 auto;
@@ -55,7 +69,7 @@ footer
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 100px;
+    font-size: 36px;
     line-height: 122.33%;
     /* identical to box height, or 38px */
 
@@ -87,8 +101,9 @@ footer
     align-items: center;
 
     margin-left: 11%;
-    height: 100px;
-    margin-top: 11%;
+    height: 45px;
+    margin: auto;
+    margin-right: 5%;
     
 
     background: #05090C;
@@ -104,7 +119,7 @@ footer
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 15px;
     line-height: 16px;
     /* identical to box height, or 103% */
 
@@ -133,7 +148,7 @@ footer
     font-family: 'Roboto Condensed';
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 28px;
     line-height: 120%;
     /* or 31px */
 
@@ -170,17 +185,17 @@ footer
 
 .tiny_image_time
 {
-    margin-left: 43%;
+    text-align: center;
 }
 
 .tiny_image_note
 {
-    margin-left: 43%;
+    text-align: center;
 }
 
 .tiny_image_focus
 {
-    margin-left: 43%;
+    text-align: center;
 }
 
 .tiny_text_time
@@ -235,7 +250,7 @@ footer
 
 .methods_wrap
 {
-    padding: 110px;
+    padding: 90px;
 }
 
 .less_time
@@ -263,9 +278,9 @@ footer
 
 .finances_img
 {
-    width: 510px;
-    height: 476px;
-    margin-left: 25%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .net_text_wrap
@@ -297,7 +312,7 @@ footer
     font-family: 'Roboto Condensed';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 135%;
     text-align: center;
     /* or 24px */
@@ -341,7 +356,7 @@ footer
     font-family: 'Roboto Condensed';
     font-style: normal;
     font-weight: 400;
-    font-size: 200%;
+    font-size: 22px;
     line-height: 135%;
     /* or 24px */
 
@@ -351,9 +366,9 @@ footer
 
 .mindblowing_img
 {   
-    width: 504px;
-    height: 691px;
-    margin-left: 29%;    
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;    
 }
 
 .what_will_you_gain
@@ -382,11 +397,6 @@ footer
     display: flex;
 }
 
-.wwyg_blocks_wrap_3
-{
-    width: 50%;
-}
-
 
 .wwyg_block
 {
@@ -406,8 +416,8 @@ footer
 
 .wwyg_block_text
 {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 12%;
+    margin-right: 0%;
     margin-top: 20.87px;
 
     font-family: 'Roboto Condensed';
@@ -437,6 +447,68 @@ footer
 
 }
 
+@media screen and (max-width: 420px) {
+    .button_small
+    {
+        height: 40px;
+        width: 40px;
+        margin-right: 5%;
+    }
+    .button_text
+    {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .inviting_to_course {
+        flex-direction: row;    
+    }
+
+    .methods_wrap
+    {
+        display: flex;
+    }
+
+    .nothingtodo_method
+    {
+        padding-top: 0;
+    }
+
+    .focuson
+    {
+        padding-top: 0;
+    }
+
+    .not_enough_time
+    {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
+
+@media screen and (max-width: 340px)
+{
+    .wwyg_blocks_wrap
+    {
+        display: block;
+    }
+
+    .wwyg_block
+    {
+        padding: 0 0 10% 0;
+    }
+
+    .wwyg_block_text
+    {
+        margin-bottom: 10%;
+    }
+
+    footer
+    {
+        margin-top: 100px;
+    }
+}
 @media screen and (min-width: 1366px)
 {
     body
@@ -591,6 +663,7 @@ footer
         height: 732px;
         padding-left: 178px;
         padding-top: 43px;
+        text-align: center;
         display: flex;
         flex-direction: unset;
     }
@@ -599,6 +672,7 @@ footer
     {
         padding-top: 113px;
         padding-left: 21px;
+        padding: auto 0 auto 0;
     }
 
     .title_descr
@@ -942,3 +1016,4 @@ footer
 
     }
 }
+
