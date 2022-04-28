@@ -429,6 +429,124 @@ footer
     color: #FFFFFF;
 }
 
+.site-form {
+    max-width: 640px;
+    padding: 12.5%;
+    padding-top: 0;
+    margin: 0 auto;
+}
+
+
+.form_extras {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.form_img {
+    margin-left: 22.5%;
+}
+
+.form_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 120%;
+    /* or 31px */
+
+    text-align: center;
+}
+
+.site-form_input {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    width: 94.17%;
+    height: 64px;
+    padding: 0 80px;
+    padding-left: 5.83%;
+    padding-top: auto;
+    margin: 20px auto;
+
+    border: 1.34888px solid #C0C0C0;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    color: #999999;
+}
+
+
+
+.site-form_state-input {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    width: 94.17%;
+    height: 64px;
+    padding-left: 5.83%;
+    padding-top: auto;
+    margin: 20px auto;
+
+    border: 1.34888px solid #C0C0C0;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    color: #999999;
+}
+
+.site-form_option {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    width: 100%;
+    
+
+    text-align: center;
+
+    color: #000000;    
+}
+
+.site-form_checkbox {
+    margin: 35px auto;
+}
+
+.site-form_checkbox-text {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    align-items: center;
+
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.site-form_button-input {
+
+    margin: 10px auto;
+    padding: 10px;
+    width: 480px;
+    height: 50px;
+
+    display: block;
+
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+
+    background-color: black;
+    color: white;
+}
+
 .footer_text
 {
     padding-top: 35px;
