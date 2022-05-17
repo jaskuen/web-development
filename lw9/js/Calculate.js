@@ -1,18 +1,6 @@
 var i = {
     value: 0
 }
-function calc(inStr) {
-    var strArray = inStr.split('')
-    var sign
-    var result = 0
-    var temp
-    var spaceMet = false
-    var num
-    var anotherSign = false
-    while (i.value < strArray.length) {
-        //console.log(strArray[i.value])
-        //console.log('sign is ', sign)
-        if (ifNum(strArray[i.value])) {
             //console.log(strArray[i])
             if (!spaceMet) {
                 if (ifNum(strArray[i.value - 1])) result = result + strArray[i.value]; else {
